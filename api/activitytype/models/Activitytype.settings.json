@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "activitytype",
+  "info": {
+    "name": "activitytype",
+    "description": "\nFeatured - apare pe homepage (unul dintre cele 3)"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "cover_image": {
+      "type": "text"
+    },
+    "activity": {
+      "model": "activity",
+      "via": "activitytypes"
+    },
+    "featured": {
+      "type": "boolean"
+    }
+  }
+}

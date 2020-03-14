@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "activity",
   "info": {
     "name": "activity",
     "description": ""
@@ -19,6 +19,38 @@
       "model": "file",
       "via": "related",
       "plugin": "upload"
+    },
+    "images": {
+      "type": "text"
+    },
+    "category": {
+      "model": "categories",
+      "via": "activity"
+    },
+    "activitytypes": {
+      "collection": "activitytype",
+      "via": "activity"
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "fixed_date": {
+      "type": "date"
+    },
+    "equipment": {
+      "type": "text"
+    },
+    "schedule": {
+      "type": "text"
+    },
+    "price": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "people": {
+      "type": "string"
     }
   }
 }
