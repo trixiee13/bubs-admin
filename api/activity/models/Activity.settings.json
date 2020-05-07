@@ -23,13 +23,9 @@
     "images": {
       "type": "text"
     },
-    "category": {
-      "model": "categories",
-      "via": "activity"
-    },
     "activitytypes": {
       "collection": "activitytype",
-      "via": "activity"
+      "via": "activities"
     },
     "featured": {
       "type": "boolean"
@@ -51,6 +47,10 @@
     },
     "people": {
       "type": "string"
+    },
+    "categories": {
+      "collection": "categories",
+      "via": "activities"
     }
   }
 }

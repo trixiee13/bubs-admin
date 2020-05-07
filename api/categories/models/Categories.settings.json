@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "categories",
   "info": {
     "name": "categories",
     "description": "These are the base categories (summer/winter/etc)"
@@ -12,9 +12,10 @@
     "name": {
       "type": "string"
     },
-    "activity": {
-      "model": "activity",
-      "via": "category"
+    "activities": {
+      "collection": "activity",
+      "via": "categories",
+      "dominant": true
     }
   }
 }
