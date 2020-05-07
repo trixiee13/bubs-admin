@@ -14,8 +14,8 @@
     },
     "activities": {
       "collection": "activity",
-      "via": "categories",
-      "dominant": true
+      "dominant": true,
+      "via": "categories"
     }
   }
 }

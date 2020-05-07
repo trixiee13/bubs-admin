@@ -20,8 +20,8 @@
     },
     "activities": {
       "collection": "activity",
-      "via": "activitytypes",
-      "dominant": true
+      "dominant": true,
+      "via": "activitytypes"
     },
     "featured": {
       "type": "boolean"

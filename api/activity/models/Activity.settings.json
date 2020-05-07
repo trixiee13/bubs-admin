@@ -51,6 +51,10 @@
     "categories": {
       "collection": "categories",
       "via": "activities"
+    },
+    "location": {
+      "model": "location",
+      "via": "activities"
     }
   }
 }
